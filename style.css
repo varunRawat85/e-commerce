@@ -1,0 +1,414 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none !important;
+}
+.main_last{
+    background-color: rgb(255, 40, 40);
+}
+a>span {
+    color: black;
+}
+
+#hover:hover>img {
+    filter: brightness(0.9);
+}
+
+#tear:hover>img {
+    filter: brightness(0.9);
+}
+
+#door:hover>img {
+    filter: brightness(0.9);
+}
+
+#dot:hover>img {
+    filter: brightness(0.9);
+}
+
+#dog:hover>img {
+    filter: brightness(0.9);
+}
+
+#cat:hover>img {
+    filter: brightness(0.9);
+}
+
+#rat:hover>img {
+    filter: brightness(0.9);
+}
+
+#mat:hover>img {
+    filter: brightness(0.9);
+}
+
+.carousel {
+    margin-top: 74px;
+}
+
+.carousel-caption {
+    top: 33%;
+}
+
+.toto {
+    background-color: red;
+    color: white;
+}
+
+.toto:hover {
+    opacity: 0.8;
+    color: white;
+}
+
+a:hover>span, p {
+    color: red;
+}
+
+.ton {
+    border-bottom: 2px solid black;
+}
+
+.ton:hover {
+    color: red !important;
+}
+
+.main {
+    top: 60%;
+    left: 23%;
+}
+
+.hell {
+    letter-spacing: 3px;
+}
+
+.big {
+    color: white;
+    background-color: red;
+    font-size: x-small;
+}
+
+.big:hover {
+    opacity: 0.8;
+    color: white;
+}
+
+#banner {
+    margin-top: 220px;
+    margin-bottom: 180px;
+    width: 100%;
+    height: 700px;
+    /* overflow-x: hidden; */
+    transform: scale(1.3, 1.3);
+    background-image: url("images/file/Sub-Banner.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.nav-link:hover {
+    color: rgb(255, 40, 40) !important;
+}
+
+.navbar-brand {
+    letter-spacing: 3px;
+}
+
+.more {
+    top: 70%;
+    left: 0%;
+}
+
+.act:hover>img {
+    filter: brightness(0.9);
+}
+
+.pool>.other>a>span {
+    color: white;
+}
+
+.pool>.other>a>span:hover {
+    color: rgb(60, 190, 250);
+}
+
+
+#explore {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 930px;
+    background-image: url("images/file/Parallex_Banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+}
+
+.fear {
+    left: 30%;
+    top: 35%;
+}
+
+.pure {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    background-color: red;
+    font-size: small;
+}
+
+.pure:hover {
+    opacity: 0.8;
+    color: white;
+}
+
+.baby {
+    background-color: rgb(255, 40, 40);
+}
+
+#deer {
+    background-color: red;
+}
+
+.last:hover {
+    color: rgb(60, 190, 250) !important;
+}
+
+#back {
+    margin-top: 100px;
+    width: 100%;
+    height: 850px;
+    background-image: url("images/file/Newsletter-Parallex.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+}
+
+.flower {
+    margin-bottom: 40px;
+    margin-right: 38px;
+}
+
+.bat {
+    top: 30%;
+    left: 25%;
+}
+
+.meter {
+    top: 65%;
+    left: 23%;
+}
+
+.crow {
+    width: 80%;
+}
+
+.input-group {
+    margin-left: 60px;
+    border: 2px solid grey;
+    width: 100%;
+}
+
+#hihi {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    padding-left: 23px;
+    padding-right: 18px;
+}
+
+.navbar-nav {
+    margin-left: 50px;
+}
+
+.navbar {
+    padding-right: 60px;
+    padding-left: 40px;
+}
+
+@media(max-width:306px) {
+    .usa>a>.main {
+        top: 40%;
+        left: 15%;
+    }
+
+    .pint:nth-child(1) {
+        font-size: larger !important;
+    }
+
+    .pint:nth-child(2) {
+        font-size: x-large !important;
+    }
+
+    .big {
+        padding: 5px !important;
+        margin-top: 2px !important;
+    }
+
+    .more {
+        top: 65%;
+    }
+
+
+
+    .fear {
+        left: 20%;
+    }
+
+    .tint:nth-child(1) {
+        font-size: larger !important;
+    }
+
+    .tint:nth-child(2) {
+        font-size: x-large !important;
+    }
+
+    .meter {
+        left: 6%;
+        top: 45%;
+
+    }
+
+    .pure {
+        padding: 5px !important;
+        margin-top: 2px !important;
+    }
+
+
+
+    .bat {
+        top: 10%;
+        left: 25%;
+    }
+
+    .tevar {
+        font-size: x-large;
+        font-weight: 400;
+    }
+
+    .crow {
+        width: 100%;
+    }
+
+    .input-group {
+        margin-left: 10px;
+    }
+
+    .icon {
+        width: 80px;
+    }
+
+    .flower>button {
+        padding: 4px !important;
+    }
+
+    .carousel-caption {
+        top: 20%;
+    }
+
+}
+
+
+
+@media(max-width:576px) {
+    #banner {
+        margin-top: 20px;
+        margin-bottom: 18px;
+
+        height: 500px !important;
+        transform: scale(1, 1) !important;
+        background-position: center center;
+    }
+
+    
+
+    #explore {
+        height: 500px;
+        background-position: center center;
+    }
+
+    .carousel-caption {
+        top: 20%;
+    }
+
+    .carousel-caption {
+        top: 20%;
+    }
+
+}
+
+@media(max-width:720px) {
+    #explore {
+        height: 600px;
+        background-position: center center;
+    }
+
+    #banner {
+        margin-top: 20px;
+        margin-bottom: 18px;
+
+        height: 600px !important;
+        transform: scale(1, 1) !important;
+        background-position: center center;
+    }#back {
+        margin-top: 40px;
+        height: 500px;
+        background-position: center center;
+    }
+    .usa>a>img{
+        width: 95%;
+    }
+}
+
+
+@media(max-width:618px) {
+    .carousel-caption>.one {
+        font-size: medium !important;
+        margin-bottom: 5px;
+    }
+
+    .carousel-caption>.two {
+        font-size: large !important;
+    }
+
+    .toto {
+        margin-top: 5px !important;
+        padding: 2px !important;
+        font-size: small;
+    }
+
+}
+
+
+
+@media(max-width:1090px) {
+
+
+    .carousel {
+        margin-top: 60px;
+    }
+
+    .flower {
+        margin-bottom: 60px;
+    }
+
+    .other {
+        margin: 3px;
+    }
+}
+
+@media(min-width:1090px) {
+    .carousel {
+        margin-top: 56px;
+    }
+
+    .flower {
+        margin-bottom: 60px;
+    }
+}

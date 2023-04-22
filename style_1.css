@@ -1,0 +1,121 @@
+body {
+    overflow-x: hidden;
+}
+
+.nav-link:hover {
+    color: rgb(255, 40, 40) !important;
+}
+
+.navbar-brand {
+    letter-spacing: 6px;
+}
+
+.navbar-nav {
+    margin-left: 50px;
+}
+
+.baby {
+    background-color: rgb(255, 40, 40);
+}
+
+#deer {
+    background-color: red;
+}
+
+.last:hover {
+    color: rgb(60, 190, 250) !important;
+}
+
+.pool>.other>a>span {
+    color: white;
+}
+
+.pool>.other>a>span:hover {
+    color: rgb(60, 190, 250);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.fire {
+    margin-top: 70px;
+    height: 150px;
+}
+.main_last{
+    background-color: rgb(255, 40, 40);
+}
+#mat:hover>img {
+    filter: brightness(0.9);
+}
+
+#dog:hover>img {
+    filter: brightness(0.9);
+}
+
+#cat:hover>img {
+    filter: brightness(0.9);
+}
+
+#rat:hover>img {
+    filter: brightness(0.9);
+}
+
+a:hover>span, p {
+    color: red;
+}
+
+#tear:hover>img {
+    filter: brightness(0.9);
+}
+
+#hover:hover>img {
+    filter: brightness(0.9);
+}
+
+.act:hover>img {
+    filter: brightness(0.9);
+}
+
+#dot:hover>img {
+    filter: brightness(0.9);
+}
+
+#door:hover>img {
+    filter: brightness(0.9);
+}
+
+.flower {
+    margin-bottom: 40px;
+    margin-right: 38px;
+}
+
+#noddy {
+    letter-spacing: 2px;
+}
+
+@media(max-width:576px) {
+
+
+    .fire {
+        margin-top: 62px;
+    }
+
+    .flower {
+        margin-bottom: 60px;
+    }
+}
+
+@media(max-width:866px) {
+    .other {
+        margin: 3px;
+    }
+
+    .fire {
+        margin-top: 62px;
+    }
+
+    .flower {
+        margin-bottom: 60px;
+    }
+}
